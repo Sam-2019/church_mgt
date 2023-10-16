@@ -1,0 +1,6 @@
+#!/bin/sh
+# ./.git/hooks/pre-commit
+
+.git/hooks/format-javascript
+.git/hooks/format-ruby
+.git/hooks/link-javascript
