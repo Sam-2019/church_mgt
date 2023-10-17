@@ -10,9 +10,14 @@
 #  name       :string           not null
 #  phone      :string           not null
 #  photo      :string
+#  slug       :string
 #  uuid       :string           not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#
+# Indexes
+#
+#  index_members_on_slug  (slug) UNIQUE
 #
 FactoryBot.define do
   factory :member do
