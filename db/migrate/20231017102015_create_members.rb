@@ -7,7 +7,7 @@ class CreateMembers < ActiveRecord::Migration[7.0]
       t.string "name", null: false
       t.string "phone", null: false
       t.string "email", null: true
-      t.string "chapel", null: false
+      t.integer "chapel", limit: 2, null: false
       t.date "dob", null: false
       t.string "photo", null: true
       t.boolean "active", default: true, null: false

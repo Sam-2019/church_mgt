@@ -16,7 +16,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_10_17_102015) do
     t.string "name", null: false
     t.string "phone", null: false
     t.string "email"
-    t.string "chapel", null: false
+    t.integer "chapel", limit: 2, null: false
     t.date "dob", null: false
     t.string "photo"
     t.boolean "active", default: true, null: false
