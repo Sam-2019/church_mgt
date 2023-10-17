@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_10_17_102015) do
+ActiveRecord::Schema[7.0].define(version: 2023_10_17_142040) do
   create_table "members", force: :cascade do |t|
     t.string "uuid", null: false
     t.string "name", null: false
