@@ -79,6 +79,11 @@ group :development do
   gem 'rails-erd', github: 'voormedia/rails-erd', branch: 'master'
   gem 'rubycritic', require: false
   gem 'standard', require: false
+  gem 'rubocop-rails', require: false
+  gem 'rubocop-performance', require: false
+  gem 'rubocop-rspec', require: false
+  gem "rubocop", require: false
+  gem 'standard-performance', require: false
   gem 'standard-rails', require: false
 end
 
